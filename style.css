@@ -1,0 +1,392 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.container {
+    margin: 0px auto;
+    width: 88%;
+}
+
+/* Start Row One */
+#row_one {
+    height: 40px;
+    width: 100%;
+}
+
+#row_one .container .col_one.left ul li {
+    float: left;
+    padding: 11px 13px 11px 0px;
+}
+
+#row_one .container .col_two.right ul li {
+    float: left;
+    padding: 11px 0px 11px 13px;
+}
+
+#row_one .container div ul li a {
+    color: gray;
+    font-family: Helvetica;
+    font-size: 12px;
+}
+
+#row_one .container div ul li a:hover {
+    color: orange;
+}
+
+/* Start Row Two */
+
+#row_two {
+    height: 40px;
+    width: 100%;
+}
+
+#row_two .container .col_one.left img {
+
+    height: 25px;
+    margin-top: 8px;
+}
+
+#row_two .container .col_two.left ul li {
+    float: left;
+    padding: 10px;
+}
+
+#row_two .container .col_two.left ul li a {
+    color: solid black;
+    padding: 10px;
+}
+
+#row_two .continer .col_two.left ul li a:hover {
+    color: orange;
+}
+
+#row_two .container .col_three.right img {
+    height: 25px;
+    margin-top: 7px;
+}
+
+/* Start Row Three*/
+
+#row_three img {
+    width: 100%;
+    height: 600px;
+}
+
+/* Start Row Four */
+
+#row_four {
+    background-color: bisque;
+    height: 300px;
+    width: 100%;
+}
+
+#row_four .container .box.left {
+    height: 200px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    width: 180px;
+}
+
+#row_four .container .box.left img {
+    width: 100%;
+}
+
+/* Start Row Five */
+
+#row_five {
+    background-color: bisque;
+    height: 400px;
+    width: 100%;
+}
+
+#row_five .container .box_one {
+    background-color: white;
+    border-radius: 20px;
+    float: left;
+    margin-right: 20px;
+    padding: 10px 20px 10px 20px;
+    height: 350px;
+    width: 595px;
+}
+
+#row_five .container .box_one p {
+    margin-top: -20px;
+}
+
+
+#row_five .container .box_one .box.left {
+    background-color: white;
+    height: 300px;
+    margin: 10px;
+    width: 178px;
+}
+
+#row_five .container .box_one .box.left img {
+    height: 150px;
+    margin-top: 10px;
+}
+
+#row_five .container .box_one .box.left span {
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+#row_five .container .box_two {
+    background-color: white;
+    border-radius: 20px;
+    float: left;
+    padding: 10px 20px 10px 20px;
+    height: 350px;
+    width: 595px;
+}
+
+#row_five .container .box_two p {
+    margin-top: -20px;
+}
+
+#row_five .container .box_two .box.left {
+    background-color: white;
+    height: 300px;
+    margin: 10px;
+    width: 178px;
+}
+
+#row_five .container .box_two .box.left img {
+    height: 150px;
+    margin-top: 10px;
+}
+
+#row_five .container .box_two .box.left span {
+    background-color: rgba(237, 169, 143, 0.938);
+}
+
+/* Start Row Six */
+
+#row_six {
+    background-color: bisque;
+    height: 70px;
+}
+
+
+/* Start Row Seven */
+
+#row_seven {
+    background-color: bisque;
+    height: 400px;
+    width: 100%;
+}
+
+#row_seven .container .box_one {
+    float: left;
+    border-radius: 20px;
+    margin-right: 20px;
+    height: 330px;
+    width: 520px;
+}
+
+#row_seven .container .box_one img {
+    border-radius: 20px;
+    height: 330px;
+    width: 520px;
+}
+
+#row_seven .container .box_two {
+    border-radius: 20px;
+    float: left;
+    height: 330px;
+    width: 760px;
+}
+
+#row_seven .container .box_two .box.left {
+    background-color: white;
+    float: left;
+    padding: 8px 2px 2px 2px;
+    margin: 0px 8px 0px 8px;
+    border-radius: 20px;
+    height: 320px;
+    width: 233px;
+}
+
+#row_seven .container .box_two .box.left span {
+    background-color: red;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+#row_seven .container .box_two .box.left img {
+    height: 190px;
+    width: 200px;
+}
+
+#row_seven .container .box_two .box.left h3 {
+    margin-bottom: 5px;
+}
+
+
+/* Start Row Eight */
+
+#row_eight {
+    background-color: bisque;
+    margin-top: -45px;
+    height: 350px;
+    width: 100%;
+}
+
+#row_eight .container .box.left {
+    background-color: white;
+    float: left;
+    border-radius: 20px;
+    margin: 20px 21px 0px 0px;
+    height: 310px;
+    width: 240px;
+}
+
+#row_eight .container .box.left img {
+    height: 180px;
+    width: 185px;
+    margin-top: 30px;
+}
+
+#row_eight .container .box.left p {
+    margin-top: 10px;
+}
+
+/* Start Row Nine */
+
+#row_nine {
+    background-color: bisque;
+    height: 70px;
+}
+
+/* Start Row Ten*/
+
+#row_ten {
+    background-color: bisque;
+    height: 750px;
+    width: 100%;
+}
+
+#row_ten .container .box_one {
+    background-color: white;
+    float: left;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 54px;
+    height: 330px;
+    width: 595px;
+}
+
+#row_ten .container .box_two {
+    background-color: white;
+    float: left;
+    border-radius: 20px;
+    padding: 10px;
+    height: 330px;
+    width: 595px;
+}
+
+#row_ten .container .box_three {
+    background-color: white;
+    float: left;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-right: 54px;
+    height: 330px;
+    width: 595px;
+}
+
+#row_ten .container .box_four {
+    background-color: white;
+    float: left;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    height: 330px;
+    width: 595px;
+}
+
+#row_ten .container .box_one img {
+    height: 225px;
+    width: 250px;
+    float: right;
+    margin-top: -220px;
+}
+
+#row_ten .container .box_two img,
+#row_ten .container .box_three img,
+#row_ten .container .box_four img {
+    height: 225px;
+    width: 250px;
+    float: right;
+    margin-top: -200px;
+}
+
+
+#row_ten .container .box_one div h2 {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+#row_ten .container .box_one h2 {
+    margin-left: 30px;
+}
+
+#row_ten .container .box_one p {
+    margin-left: 30px;
+}
+
+#row_ten .container .box_two div h2 {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+#row_ten .container .box_two p {
+    margin-left: 30px;
+}
+
+#row_ten .container .box_three div h2 {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+#row_ten .container .box_three h2 {
+    margin-left: 30px;
+}
+
+#row_ten .container .box_three p {
+    margin-left: 30px;
+}
+
+#row_ten .container .box_four div h2 {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+#row_ten .container .box_four p {
+    margin-left: 30px;
+}
+
+/* Start Row Eleven*/
